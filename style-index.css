@@ -1,0 +1,986 @@
+/*==========  Body  ==========*/
+
+body
+{
+    background-color: #504A4B;
+    text-align: center;
+}
+
+/*========== header ==========*/
+
+.header
+{
+    display         : block;
+    top             : 0;
+    left            : 0;
+    width           : 100%;
+    height          : 70px;
+    position        : fixed;
+    display         : block;
+    background-color: #1f1f1f;
+    opacity         : .95;
+    z-index         : 20; /*== alway be behind the menu ===*/
+    box-shadow      : 2px 2px 6px yellow;
+    color           : aliceblue;
+    font-family     : Helvetica, sans-serif;
+    font-weight     : 800;
+    text-shadow     : 1px 2px  yellow;
+   
+}
+
+
+/*========== Stores Header ==========*/
+
+.header-stores
+{
+    display         : block;
+    top             : 20px;
+    right           : 0;
+    width           : 35%;
+    height          : 70px;
+    position        : fixed;
+    display         : block;
+    background-color: #1f1f1f;
+    opacity         : .6;
+    z-index         : 20; /*== alway be behind the menu ===*/
+    box-shadow      : 2px 2px 6px yellow;
+    color           : aliceblue;
+    font-family     : Helvetica, sans-serif;
+    font-weight     : 800;
+    text-shadow     : 1px 2px  yellow;
+}
+
+/*=========== Store info box ==========*/
+
+.store-info
+{
+    position        : fixed;
+    left            : 10px;
+    top             : 330px;
+    height          : 250px;
+    width           : 250px;
+    color           : aliceblue;
+    text-shadow     : 1px 2px yellow;
+    text-align      : center;
+    font-family     : Helvetica, sans-serif;
+    background-color: black;
+    box-shadow      : 1px 1px 1px yellow;
+    border-radius   : 10%;
+    opacity         : 0.8;
+    font-size       : 20px;
+    
+    
+}
+
+
+
+/*======================== Checkers ========================*/
+
+body.checkers
+{
+    background-color: #008581;
+    
+}
+
+/*====== Checkers logo ======*/
+
+.store-logo-checkers
+{
+    
+    height          : 300px;
+    width           : 100%;
+    box-shadow      : 1px 1px 10px yellow;
+    background-color: #FFFFFF;
+   
+ 
+}
+
+
+/*===== Checkers images =====*/
+.checkers-content img
+{
+    padding         : 15px;
+    box-shadow      : 1px 1px 10px white;
+}
+
+.checkers-content 
+{
+    margin-bottom   : 40px;
+}
+
+
+
+/*======================== CNA ========================*/
+
+body.cna
+{
+    background-color: #CA2020;
+    
+}
+
+/*====== CNA logo ======*/
+
+.store-logo-cna
+{
+    
+    height          : 300px;
+    width           : 100%;
+    background-image: url('images/CNA/CNA-logo.png');
+    background-repeat: repeat-x;
+    box-shadow      : 1px 1px 10px yellow;
+   
+ 
+}
+
+
+/*===== CNA images =====*/
+.cna-content img
+{
+    padding         : 15px;
+    box-shadow      : 1px 1px 10px white;
+}
+
+.cna-content 
+{
+    margin-bottom   : 40px;
+}
+
+
+
+
+
+
+
+
+
+/*======================== Edgars ========================*/
+
+body.edgars
+{
+    background-color: #CA2020;
+    
+}
+
+/*====== Edgars logo ======*/
+
+.store-logo-edgars
+{
+    
+    height          : 300px;
+    background-image: url('images/EDGARS/EDGARS-logo-1.jpg');
+    background-repeat: repeat-x;
+    box-shadow      : 1px 1px 10px yellow;
+   
+ 
+}
+
+
+/*===== Edgars images =====*/
+.edgars-content img
+{
+    padding         : 15px;
+}
+
+.edgars-content 
+{
+    margin-bottom   : 25px;
+}
+
+
+
+
+
+
+
+/*=========================== KFC =========================*/
+
+body.kfc
+{
+    background-color: white;
+    
+}
+
+/*===== KFC logo =====*/
+.store-logo-kfc
+{
+    
+    height          : 300px;
+    box-shadow      : 1px 1px 10px yellow;
+   
+ 
+}
+
+/*===== KFC images =====*/
+
+.kfc-content img
+{
+    padding         : 15px;
+    box-shadow      : 1px 1px 10px #CA2020;
+}
+
+.kfc-content 
+{
+    margin-bottom: 35px;
+}
+
+
+
+
+
+
+
+/*======================== Mr Price ========================*/
+
+body.mr-price
+{
+    background-color: #ffffff;
+    
+}
+
+/*====== Mr Price logo ======*/
+
+.store-logo-mr-price
+{
+    
+    height          : 300px;
+    width           : 100%;
+    box-shadow      : 1px 1px 10px yellow;
+    background-color: #D0070F;
+   
+ 
+}
+
+
+/*===== Mr Price images =====*/
+.mr-price-content img
+{
+    padding         : 15px;
+    box-shadow      : 1px 1px 10px #D0070F;
+}
+
+.mr-price-content 
+{
+    margin-bottom   : 40px;
+}
+
+
+
+
+
+
+/*=========================== Pick n Pay =========================*/
+body.pnp
+{
+    background-color: white;
+    
+}
+
+/*===== Pick n Pay logo =====*/
+.store-logo-pnp
+{
+   
+    height          : 300px;
+    box-shadow      : 1px 1px 10px yellow;
+    background-color: blue;
+   
+ 
+}
+
+/*===== KFC images =====*/
+
+.pnp-content img
+{
+    padding         : 15px;
+    box-shadow      : 1px 1px 10px #CA2020;
+}
+
+.pnp-content 
+{
+    margin-bottom: 35px;
+}
+
+
+
+
+
+/*======================== Spur ========================*/
+
+body.spur
+{
+    background-color: #FD402D;
+    
+}
+
+/*====== Spur logo ======*/
+
+.store-logo-spur
+{
+    
+    height          : 300px;
+    width           : 100%;
+    box-shadow      : 1px 1px 10px yellow;
+    background-color: #ffffff;
+   
+ 
+}
+
+
+/*===== Spur images =====*/
+.spur-content img
+{
+    padding         : 15px;
+    box-shadow      : 1px 1px 10px #ffffff;
+}
+
+.spur-content 
+{
+    margin-bottom   : 40px;
+}
+
+
+
+
+
+
+
+
+
+/*======================== Stuttafords ========================*/
+
+body.stuttafords
+{
+    background-color: #424242;
+    
+}
+
+/*====== Stuttafords logo ======*/
+
+.store-logo-stuttafords
+{
+    
+    height          : 300px;
+    width           : 100%;
+    box-shadow      : 1px 1px 10px yellow;
+    background-color: #ffffff;
+   
+ 
+}
+
+
+/*===== Stuttafords images =====*/
+.stuttafords-content img
+{
+    padding         : 15px;
+    box-shadow      : 1px 1px 20px #E48D60;
+}
+
+.stuttafords-content 
+{
+    margin-bottom   : 40px;
+}
+
+
+
+
+
+
+
+
+
+/*======================== Woolworths ========================*/
+
+body.woolworths
+{
+    background-color: #ffffff;
+    
+}
+
+/*====== Woolworths logo ======*/
+
+.store-logo-woolworths
+{
+    
+    height          : 300px;
+    width           : 100%;
+    box-shadow      : 1px 1px 10px yellow;
+    background-color: #000000;
+   
+ 
+}
+
+
+/*===== Woolworths images =====*/
+.woolworths-content img
+{
+    padding         : 15px;
+    box-shadow      : 1px 1px 20px #000000;
+}
+
+.woolworths-content 
+{
+    margin-bottom   : 40px;
+}
+
+
+/*========== Menu icon ==========*/
+
+.menu
+{
+    top             : 10px;
+    left            : 15px;
+    display         : block;
+    position        : fixed;
+    opacity         : 1;
+    background-color: black;
+    width           : 45px;
+    height          : 45px;
+    border          : 1px solid white;
+    border-radius   : 100%;
+    box-shadow      : 1px 1px 1px 1px yellow;
+    cursor          : pointer;
+    display         : block;
+    z-index         : 21;
+   
+    
+}
+
+.menu img
+{   
+    opacity: 1;
+}
+
+.menu a
+{
+    opacity: 0;
+}
+
+/*========== Menu bar ==========*/
+
+.menu:hover
+{
+    width           : 250px;
+    height          : 55px;
+    border-radius   : 30px; 
+    opacity         : .8;
+    
+}
+
+.menu:hover a
+{
+    
+    opacity         : 1;
+    padding         : 5px;
+    
+}
+
+.menu a:hover
+{
+    color           : yellow;
+    left            : 5px;
+    padding         : 5px;
+    font-size       : 25px;
+        
+}
+
+/*=========== Content ==========*/
+
+.content
+{
+    display         : block;
+    margin-top      : 70px;
+    margin-bottom   : 45px;
+    border          : 1px solid yellow;
+    width           : 90%;
+    margin-left     : auto;
+    margin-right    : auto;
+    background-color: black;
+    border-radius   : 5%;
+    box-shadow      : 10px 10px 20px lightgrey;
+}
+
+/*========== container ==========*/
+
+.container 
+{
+    width: 100%;
+    height: 550px;
+    position: relative;
+    display: block;
+    
+    
+}
+
+
+
+
+.special
+{
+   position         : absolute;
+    width           : 100%;
+    height          : 0;
+    bottom          : 100%;
+    overflow        : hidden;
+    margin          : auto;
+    transition      : 1s;
+}
+
+.container:hover .special
+{
+    bottom          : 0;
+    height          : 550px;
+}
+
+.container:hover .logo
+{
+    opacity         : .1;
+    transition      : 2s;
+}
+
+
+/*=========================== Store List ==================*/
+
+/*======= styling for both Store and Movies tables ========*/
+
+body.stores
+{
+    background-color: #504A4B;
+}
+
+.header-stores-list
+{
+    display         : block;
+    top             : 75px;
+    right           : 0;
+    width           : 35%;
+    height          : 70px;
+    position        : fixed;
+    display         : block;
+    background-color: #1f1f1f;
+    opacity         : .6;
+    z-index         : 20; /*== alway be behind the menu ===*/
+    box-shadow      : 2px 2px 6px yellow;
+    color           : aliceblue;
+    font-family     : Helvetica, sans-serif;
+    font-weight     : 800;
+    text-shadow     : 1px 2px  yellow;
+}
+
+
+
+.stores-content
+{
+    margin-top      : 70px;
+    margin-bottom   : 40px;
+}
+
+table
+{
+    margin-left     : auto;
+    margin-right    : auto;
+    border-bottom-style: solid;
+    padding         : 40px;
+}
+
+table:hover img
+{
+    box-shadow      : 1px 1px 10px yellow;
+}
+
+th.heading
+{
+    color           : aliceblue;
+    font-family     : Helvetica, sans-serif;
+    font-weight     : 600;
+    font-size       : 20px
+    text-shadow     : 1px 2px  yellow;
+    background-color: darkgrey;
+    text-align      : center;
+    height          : 100px;
+}
+
+th
+{
+    color           : aliceblue;
+    font-family     : Helvetica, sans-serif;
+    font-weight     : 400;
+    text-shadow     : 1px 1px  yellow;
+    text-align      : center;
+    height          : 70px; 
+}
+
+tr:nth-child(odd)
+{
+    background-color: black;
+}
+
+
+tr:hover img
+{
+    box-shadow      : 2px 2px 15px red;
+    height          : 150px;
+    width           : 125px;
+}
+
+
+/*=========================== Movie List ==================*/
+
+table.movies
+{
+    opacity         : .9;
+    width           : 70%;
+    z-index         : 19;
+    margin-top      : 100px;
+    margin-left     : 20%;
+    position        :absolute;
+    
+    
+}
+
+table.movies td
+{
+    color           : aliceblue;
+    font-family     : Helvetica, sans-serif;
+    font-weight     : 400;
+    text-shadow     : 1px 1px  red;
+    text-align      : center;
+    height          : 50px;
+    
+}
+
+.icon 
+{
+   
+    font-size       : 550px;
+    position        : fixed;
+    left            : 30%;
+    top             : 100px;
+    color           : yellow;
+    opacity         : .4;
+}
+
+/*================ Movie Pages ==============*/
+/*====  ALl My Life ====*/
+.header-all-my-life
+{
+    display         : block;
+    top             : 0;
+    left            : 0;
+    width           : 100%;
+    height          : 70px;
+    position        : fixed;
+    display         : block;
+    background-color: #1f1f1f;
+    opacity         : .95;
+    z-index         : 20; /*== alway be behind the menu ===*/
+    box-shadow      : 2px 2px 6px #FEC8E0;
+    color           : aliceblue;
+    font-family     : Helvetica, sans-serif;
+    font-weight     : 800;
+    text-shadow     : 1px 2px  yellow;
+   
+}
+
+
+.content-all-my-life
+{
+    margin-top      : 75px; 
+}
+
+.content-all-my-life .poster img
+{
+  box-shadow: 6px 6px 20px #FEC8E0;  
+}
+.content-all-my-life tr:nth-child(odd)
+{
+    background-color: #FEC8E0;
+}
+
+.content-all-my-life td
+{
+    font-weight     : 600;
+    
+}
+
+/*====  Freaky ====*/
+.header-freaky
+{
+    display         : block;
+    top             : 0;
+    left            : 0;
+    width           : 100%;
+    height          : 70px;
+    position        : fixed;
+    display         : block;
+    background-color: #1f1f1f;
+    opacity         : .95;
+    z-index         : 20; /*== alway be behind the menu ===*/
+    box-shadow      : 4px 4px 12px #3D0F11;
+    color           : aliceblue;
+    font-family     : Helvetica, sans-serif;
+    font-weight     : 800;
+    text-shadow     : 1px 2px  yellow;
+   
+}
+
+
+.content-freaky
+{
+    margin-top      : 75px; 
+    margin-bottom   : 40px;
+}
+
+
+.content-freaky .poster img
+{
+  box-shadow: 6px 6px 20px #3D0F11;  
+}
+
+.content-freaky tr:nth-child(odd)
+{
+    background-color: #3D0F11;
+}
+
+.content-freaky td
+{
+    font-weight     : 600;
+    
+}
+
+
+/*====  Pinocchio ====*/
+.header-pinocchio
+{
+    display         : block;
+    top             : 0;
+    left            : 0;
+    width           : 100%;
+    height          : 70px;
+    position        : fixed;
+    display         : block;
+    background-color: #1f1f1f;
+    opacity         : .95;
+    z-index         : 20; /*== alway be behind the menu ===*/
+    box-shadow      : 4px 4px 12px #0B4550;
+    color           : aliceblue;
+    font-family     : Helvetica, sans-serif;
+    font-weight     : 800;
+    text-shadow     : 1px 2px  yellow;
+   
+}
+
+
+.content-pinocchio
+{
+    margin-top      : 75px; 
+    margin-bottom   : 40px;
+}
+
+
+.content-pinocchio .poster img
+{
+  box-shadow: 6px 6px 20px #0B4550;  
+}
+
+.content-pinocchio tr:nth-child(odd)
+{
+    background-color: #0B4550;
+}
+
+.content-pinocchio td
+{
+    font-weight     : 600;
+    
+}
+
+
+
+
+
+/*====  The Empty an ====*/
+.header-the-empty-man
+{
+    display         : block;
+    top             : 0;
+    left            : 0;
+    width           : 100%;
+    height          : 70px;
+    position        : fixed;
+    display         : block;
+    background-color: #1f1f1f;
+    opacity         : .95;
+    z-index         : 20; /*== alway be behind the menu ===*/
+    box-shadow      : 4px 4px 12px #ffffff;
+    color           : aliceblue;
+    font-family     : Helvetica, sans-serif;
+    font-weight     : 800;
+    text-shadow     : 1px 2px  yellow;
+   
+}
+
+
+.content-the-empty-man
+{
+    margin-top      : 75px; 
+    margin-bottom   : 40px;
+}
+
+
+.content-the-empty-man .poster img
+{
+  box-shadow: 6px 6px 20px #ffffff;  
+}
+
+.content-the-empty-man tr:nth-child(odd)
+{
+    background-color: #000000;
+}
+
+.content-the-empty-man td
+{
+    font-weight     : 600;
+    color           : #ffffff;
+    
+}
+
+
+
+
+/*===================== Contact Page ================  */
+
+
+body.contacts
+{
+    background-image: url('images/images-of-mall/front-mall2.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+.contacts .content
+{
+    color           : yellow;
+    opacity         : 0.9;
+    font-size       : 20px;
+    background-color: dimgrey;
+}
+
+.address
+{
+    border-bottom-style: dotted;
+    border-color    : aliceblue;
+    width           : 50%;
+    margin-left     : auto;
+    margin-right    : auto;
+}
+
+
+.hours
+{
+    border-bottom-style: dotted;
+    border-color    : aliceblue;
+    width           : 50%;
+    margin-left     : auto;
+    margin-right    : auto;
+}
+
+
+input{
+      width         : 80%;
+      height        : 25px;
+      margin        : 12px 0;
+      border        : 1px solid #929292;
+}
+
+textarea{
+      width         : 80%;
+      height        : 55px;
+      margin        : 12px 0;
+      border        : 1px solid #929292;
+}
+
+.button{
+      display         : block;
+      background-color: forestgreen;
+      text-decoration : none;
+      text-align      : center;
+      color          : white;
+      font-size      : 16px;
+      font-weight    : 600;
+      margin         : 12px 0;
+      padding        : 8px 0;
+      width          : 80%;
+      margin-left    : 10%;
+}
+
+
+/*=====================Message Received Page============*/
+
+
+.content-feedback
+{
+    
+    margin-top      : 15%;
+    
+    color           : yellow;
+    font-weight     : 800;
+    font-size       : 40px;
+    text-shadow     : 2px 2px 15px aliceblue;
+}
+
+
+
+/*===================== Map Page ===============*/
+
+.content-map
+{
+    margin-top      : 80px;
+    margin-bottom   : 40px;
+    padding         : 20px;
+}
+
+.content-map img
+{
+   box-shadow      : 3px 3px 15px lightgrey; 
+}
+
+
+/*===================== About Page ===============*/
+
+.content-about
+{
+    margin-top      : 80px;
+    margin-bottom   : 40px;
+    padding         : 20px;
+    
+}
+
+.content-about img
+{
+    box-shadow      : 3px 3px 15px yellow; 
+    padding         : 20px;
+}
+
+.about-text
+{
+    color           : yellow;
+    box-shadow      : 2px 2px 15px aliceblue;
+    font-weight     : 400;
+    font-size       : 15px;
+    margin-top      : 100px;
+}
+
+/*========== FOOTER ==========*/
+
+.footer
+{
+    bottom          : 0;
+    left            : 0;
+    height          : 40px;
+    width           : 100%;
+    position        : fixed;
+    color           : aliceblue;
+    background-color: black;
+    opacity         : 0.8;
+    box-shadow      : 1px 1px 1px 3px yellow;
+    z-index         : 20;
+}
